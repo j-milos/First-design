@@ -1,0 +1,11 @@
+.box{
+    color:white;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box1{background-color: blueviolet;}
+.box2{background-color: brown;}
+.box3{background-color: aqua;}
+
