@@ -1,0 +1,90 @@
+body{
+    background-color: aquamarine;
+    color:brown;
+    font:normal 16px Arial, Helvetica;
+    line-height: 1.6em;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: aqua;
+}
+
+.box-1{
+    background-color: #333;
+    color:#fff;
+    border: 5px red solid;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.box-1 h1{
+
+    font-family: Tahoma;
+    font-weight: 800;  
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.box-2{
+    color: black;
+    padding: 20px;
+    margin: 20px 0;
+    border: 5px dotted blue;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.button{
+    background-color:#333;
+    color:#fff;
+    padding: 10px 15px;
+    border:none;
+}
+.Categories{
+    border: 1px lightgray solid;
+    padding: 10 px;
+    border-radius: 15px;
+}
+.Categories h2{
+    text-align: center;
+}
+
+.Categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.Categories li{
+padding-bottom: 8px;
+border-bottom:6px dotted #333;
+}
+
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+
+display: block;
+}
+.my-form input[type="text"],.my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+.block{
+    float:left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
